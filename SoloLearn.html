@@ -1,0 +1,148 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>SoloLearn Playground</title>
+</head>
+<body>
+    <!--Header  is for like logo and title and such-->
+    <header>
+    <h1>Things I learn in SoloLearn</h1>
+    <img src="logo.png" alt="logo" title="images are easy"/>
+    </header>
+
+    <!--navigation helps to navigate the page and site-->
+    <nav>
+        <a href="google.com"> google</a>
+        <a href="instagram.com"> instagram</a>
+    </nav>
+
+    <!--main is where all the websites info goes (including other box elements)-->
+    <main>
+    <!--sections just devide or seperate related things with each other and from other things-->
+        
+        <!--(div) is used to just group together elements without meanding-->
+        <div>
+            <h2>heading 2</h2>
+            <p>some info on heading 2 that can be read upon further</p>
+            <a href="google.com" target="_blank">Rread More</a>
+        </div>
+
+    <section>
+    <!--heading 2 is smaller and lower than h1-->
+    <h2>Table of things</h2>
+    <!--tables are straight forward-->
+    <table border="1">
+        <!--they have rows-->
+        <tr><!--and the first row has the headins (th)-->
+            <th colspan="3">Users</th>
+        </tr>
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Size</th>
+        </tr>
+        <tr><!--then they have cells (td) which determine the amount of columbs-->
+            <td>shae</td>
+            <td>19</td>
+            <td>yes</td>
+        </tr>
+        <tr>
+            <td>dodo</td>
+            <td>20</td>
+            <td>often under 12</td>
+        </tr>
+    </table>
+    </section>
+
+    <sectin>
+        <h2>Forms</h2>
+        <!--the input element supports various types-->
+        <form>
+            <!--when you click on the label it focusses the form field and oyu can add placeholder text-->
+            <label for="name">Name</label>
+            <input type="text" id="name" placeholder="Your name here"/>
+            <br /><br />
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="Enter your email address"/>
+            <br /><br />
+            <label for="password">Password</label>
+            <input type="text" id="password" placeholder="Enter your password"/>
+        </form>
+
+        <!--forms only take one line of info, for multiple lines use textarea-->
+        <br /><br /><label for="msg">Letter to the press</label>
+        <textarea id="msg"></textarea>
+
+        <!--for a drop down list use select-->
+        <select>
+            <option>red</option>
+            <option>green</option>
+            <option>blue</option>
+            <option>black</option>
+        </select>
+
+        <!--buttons can be made using button-->
+        <button>send</button>
+        <!--buttons can also be made using the input element-->
+        <input type="button" value="send" />
+        <input type="reset" value="reset" />
+
+        </section>
+
+        <sectoin>
+            <hr />
+            <form>
+                <h2>Contact us</h2>
+                <label for="type">Type:</label>
+                <select id="type">
+                    <option>General</option>
+                    <option>Complaint</option>
+                    <option>Suggestion</option>
+                </select> <br /><br />
+                
+                <label for="name">Name:</label>
+                <input type="text" id="name" />
+                <br /><br />
+
+                <label for="message">Message:</label><br />
+                <textarea></textarea><br />
+
+                <input type="button" value="Send"/>
+            </form>
+
+            <hr />
+
+        </sectoin>
+
+    </sectin>
+    <!--the aside is for unimportant info and such-->
+    <aside>
+        <h2>Basically</h2>
+        <p>Size is irrelevant and the numbers dont vary much, and the name is a social construct with no greaater purpose than encapsulating a single mental image of another.</p>
+    </aside>
+
+    <secion>
+        <p>Special characters start with &
+        To make the grater than and less than ssymbols, we use & g t, and & l t. For example a paragraph would use &lt;p&gt;</p>
+        <p>Quotes are made using & quot, like in &quot;Quote&quot;
+        <br /> apostrophe made with & apos, like in &apos;
+        <br /> and then lastly is & amp for the &amp; symbol.</p>    
+
+        <p>James&nbsp;Wilten</p>
+    
+    </secion>
+
+    <setion>
+        <audio src="audio.mp3" controls>
+            Audio Not Supported
+        </audio>
+    </setion>
+    </main>
+    <!--footer is where the ecternal links, info, and copyright info goes-->
+    <footer>
+        <p align="center">Copyright (not really but yk)</p>
+    </footer>
+</body>
+</html>
